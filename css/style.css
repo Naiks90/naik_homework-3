@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{    
+    width: 1110px;
+    padding-top: 40px;
+    margin:0 auto;
+    font-family: "roboto", Helvetica, sans-serif;}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    font-size: 30px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.logo::first-letter{
+    font-weight: 700;
+    color: #1abc9c;
+}
+.menu{
+    float: right;
+}
+.menu-items{
+    float: left;
+    margin-right: 30px;
+    list-style: none;
+    padding-top: 10px;
+}
+.menu-items:last-child{
+    margin-right: 0px;
+}
+    
+.menu-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    font-family: "open sans", Helvetica, sans-serif
+}
+.menu-items a:hover{
+    color: #1abc9c;
+}
+header{
+    margin-bottom: 110px;
+}
+.subtitle{
+    font-size: 48px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+.subtitle::after{
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background: #1abc9c;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.section{
+    width: 255px;
+    height: 322px;
+    /* background-color: #323232;     */
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;      
+}
+.section:nth-child(4n+1){
+    margin-right: 0px;
+}
+.section:nth-child(n+6){
+    margin-bottom: 100px;
+}
+.name {
+   
+    width: 191px;
+    height: 40px;
+    background-color: #323232;
+    padding-left: 10px;
+    float: left;
+
+}
+.price{
+    float: right;
+    width: 54px;
+    background-color: #8c8c8c;
+    height: 40px;
+    text-align: center;
+    
+    
+}
+.pik{
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;    
+    color: white;  
+    /* display: inline-block;    */
+    
+}
+
+.img{
+    display: block;
+}
+.down::after{
+    margin-bottom: 80px;
+}
+.section:hover .name{
+    background-color: #1abc9c;
+}
+.section:hover .price{
+    background-color: #7fd9c7;
+}
+.news{
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+.news:last-child{
+    margin-right: 0px;
+}
+.news-img{
+    display: block;
+    margin-bottom: 15px;
+}
+.news-title{
+    font-family: "open sans", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+.news-title::after{
+    content: "";
+    display: block;
+    width: 136px;
+    height: 3px;
+    background: #4ec6ab;
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+.news-text{
+    font-family: "open sans", Helvetica, sans-serif;
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+.news-link{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background: #4ec6ab;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: "open sans", Helvetica, sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
+    margin-bottom: 80px;
+}
